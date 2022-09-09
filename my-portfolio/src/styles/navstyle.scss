@@ -1,0 +1,117 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main--div {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  background: black;
+  border-bottom: 1px solid grey;
+  z-index: 3;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  /*border: 1px solid yellow;*/
+}
+
+/*--------------------*/
+    /*Links format*/
+/*--------------------*/
+
+.flexible--links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  /*border: 2px solid white;*/
+}
+
+.flexible--links h4 {
+  margin: 0px 30px;
+  font-family: 'Consolas';
+  font-size: 1.2rem;
+  color: lightgrey;
+}
+
+
+/*--------------------*/
+    /*IMG format*/
+/*--------------------*/
+
+.flexible--img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  /*border: 2px solid white;*/
+}
+
+#img--fcc {
+  margin: 0px 5px;
+  padding: 10px 10px;
+
+  width: 45px;
+  /*border: 2px solid orange;*/
+}
+
+#img--gh {
+  margin: 0px 5px;
+  padding: 10px 0px;
+
+  width: 65px;
+  /*border: 2px solid orange;*/
+}
+
+#img--vite {
+  margin: 2px 5px;
+  padding: 10px 10px;
+
+  width: 35px;
+  /*border: 2px solid orange;*/
+}
+
+#img--react {
+  margin: 0px 5px;
+  padding: 0px 0px;
+
+  width: 65px;
+  /*border: 2px solid orange;*/
+}
+
+#img--lib {
+  margin: 0px 5px;
+  padding: 10px 10px;
+
+  width: 50px;
+  /*border: 2px solid orange;*/
+}
+
+#img--redux {
+  margin: 0px 5px;
+  padding: 10px 15px;
+
+  width: 35px;
+  /*border: 2px solid orange;*/
+}
+
+#img--ts {
+  margin: 0px 5px;
+  padding: 10px 15px;
+
+  width: 40px;
+
+  /*border: 2px solid orange;*/
+}

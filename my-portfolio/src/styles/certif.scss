@@ -1,0 +1,64 @@
+.certif {
+  position: absolute;
+  margin-top: 100px;
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*background: black;*/
+  border: 2px solid yellow;
+  z-index: 1;
+}
+
+.confetti--div {
+  position: fixed;
+  top: 100px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+  background-image: linear-gradient(30deg, rgba(0,0,255,.6),
+  rgba(0,0,255,0.6) 100%);
+}
+
+.confetti--tag {
+  position: fixed;
+  width: 100vw;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  border: 2px solid blue;
+  z-index: -1;
+}
+
+.certif h1 {
+  color: #ccd6f6;
+  font-family: 'Consolas';
+  font-size: 3rem;
+  z-index: 2;
+}
+
+.section--certif {
+  width: 30%;
+  text-align: center;
+  border: 1px solid blue;
+  border-radius: 15px;
+  z-index: 2;
+}
+
+.art--tag {
+  margin: 10px 0px;
+  padding: 10px 0px;
+  background-image: linear-gradient(30deg, rgba(0,0,255,.6),
+  rgba(0,0,255,0.6) 100%);
+  z-index: 2;
+}
+
+.art--tag h3 {
+  color: #8892b0;
+}
+
+.art--tag p {
+  color: #62ebcf;
+}
