@@ -51,12 +51,20 @@ body {
 /*--------------------*/
 
 .flexible--img {
+  margin-rigth: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 
   /*border: 2px solid white;*/
+}
+
+#img--oc {
+  margin: 0px 5px;
+  padding: 10px 10px;
+
+  width: 60px;
 }
 
 #img--fcc {
@@ -110,7 +118,6 @@ body {
 #img--ts {
   margin: 0px 5px;
   padding: 10px 15px;
-
   width: 40px;
 
   /*border: 2px solid orange;*/

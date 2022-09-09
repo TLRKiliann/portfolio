@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import openImg from '../assets/images/openclass_logo.png';
 import fccImg from '../assets/images/fcc_primary_small.png';
 import ghImg from '../assets/images/gh_logo.png';
 import viteImg from '../assets/images/vite_logo.svg';
@@ -37,8 +37,11 @@ export const Navbar = () => {
 
         </div>
 
-
         <div className="flexible--img">
+
+          <img id="img--oc"
+            src={openImg} alt="no libImg !"
+           />
 
           <img id="img--fcc"
             src={fccImg} alt="no libImg !"
@@ -69,7 +72,6 @@ export const Navbar = () => {
            />
 
         </div>
-
 
       </nav>
 
