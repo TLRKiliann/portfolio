@@ -1,13 +1,12 @@
-.projects {
+.videos {
   position: absolute;
+  top: 100px;
   right: 0px;
+  bottom: -1400px;
   left: 0px;
-  padding: 100px 0px;
 
   background: black;
   color: white;
-
-  z-index: 1;
 }
 
 .main--title {
@@ -17,7 +16,7 @@
   font-family: 'Consolas';
   font-size: 2rem;
 
-  color: lightgrey;
+  color: #ccd6f6;
 }
 
 .videos--div {
@@ -31,6 +30,7 @@
 }
 
 .title--videos {
+  margin-top: 20px;
   margin-left: 20px;
 
   font-family: 'Consolas';

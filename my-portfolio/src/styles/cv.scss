@@ -1,13 +1,25 @@
 .cv {
   position: absolute;
-  margin-top: 100px;
-  margin-left: 40px;
-  width: 99%;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  /*background: black;*/
-  z-index: 1;
+  top: 100px;
+  right: 0px;
+  bottom: -300px;
+  left: 0px;
 
-  /*border: 2px solid white;*/
+  background: black;
+  color: white;
+}
+
+.main--cvtitle {
+  margin-top: 40px;
+  margin-left: 20px;
+
+  font-family: 'Consolas';
+  font-size: 2rem;
+
+  color: #ccd6f6;
+}
+
+.pdf--caption {
+  margin-right: 22%;
+  margin-left: 22%; 
 }

@@ -10,7 +10,7 @@ export const Videos = () => {
   };
 
   return (
-    <div className="projects">
+    <div className="videos">
 
       <h1 className="main--title">Videos</h1>
 
