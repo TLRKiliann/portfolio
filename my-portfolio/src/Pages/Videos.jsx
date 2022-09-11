@@ -99,7 +99,7 @@ export const Videos = () => {
                 videoId="uHL0K4QXir4"
                 className="YouTube--video"
                 />
-              <h4>Unicode(ASCII) with keyboard event & more...</h4>
+              <h4>Unicode(ASCII) keybord events</h4>
               <p>Great demo about unicode with event in Javacript.</p>
               <a
                 href="https://github.com/TLRKiliann/"
@@ -143,8 +143,9 @@ export const Videos = () => {
                 videoId="iYtVlNlXSoo"
                 className="YouTube--video"
                 />
-              <h4>e-commerce TypeScript + Bootstrap5 + Sass</h4>
-              <p>Front & Backend application with login & signup
+              <h4>MERN stack e-commerce</h4>
+              <p>Front & Backend application with login & signup.<br/>
+                (TypeScript, Bootstrap5, Sass, Mongoose, API)<br/>
                 (read description below the video on yt).
               </p>
               <a

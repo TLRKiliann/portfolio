@@ -65,6 +65,7 @@ body {
   padding: 10px 10px;
 
   width: 60px;
+  height: 60px;
 }
 
 #img--fcc {
@@ -72,6 +73,16 @@ body {
   padding: 10px 10px;
 
   width: 45px;
+  height: 30px;
+  /*border: 2px solid orange;*/
+}
+
+#img--python {
+  margin: 0px 5px;
+  padding: 10px 10px;
+
+  width: 35px;
+  height: 35px;
   /*border: 2px solid orange;*/
 }
 
@@ -80,6 +91,7 @@ body {
   padding: 10px 0px;
 
   width: 65px;
+  height: 35px;
   /*border: 2px solid orange;*/
 }
 
@@ -87,7 +99,8 @@ body {
   margin: 2px 5px;
   padding: 10px 10px;
 
-  width: 35px;
+  width: 37px;
+  height: 37px;
   /*border: 2px solid orange;*/
 }
 
@@ -96,6 +109,7 @@ body {
   padding: 0px 0px;
 
   width: 65px;
+  height: 50px;
   /*border: 2px solid orange;*/
 }
 
@@ -104,14 +118,16 @@ body {
   padding: 10px 10px;
 
   width: 50px;
+  height: 50px;
   /*border: 2px solid orange;*/
 }
 
 #img--redux {
-  margin: 0px 5px;
+  margin: 0px 0px;
   padding: 10px 15px;
 
-  width: 35px;
+  width: 40px;
+  height: 35px;
   /*border: 2px solid orange;*/
 }
 
@@ -119,6 +135,7 @@ body {
   margin: 0px 5px;
   padding: 10px 15px;
   width: 40px;
+  height: 40px;
 
   /*border: 2px solid orange;*/
 }

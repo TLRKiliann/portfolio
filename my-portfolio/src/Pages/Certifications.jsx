@@ -20,16 +20,18 @@ export const Certifications = () => {
             <p>FreeCodeCamp</p>
             <img src={fccImg} width="50px" height="30px" alt="no img"/>
           </div>
-          <div className="div--certifications">
-            <ul>
-              <li>
-                Front End Development Libraries
-                (React - Redux - Bootstrap - jQuerry - Sass)
-              </li>
-              <li>
-                FreeCodeCamp Youtube Videos
-              </li>
-            </ul>
+          <div className="div--certification">
+            <div className="subdiv--certifications">
+              <ul>
+                <li>
+                  Front End Development Libraries
+                  (React - Redux - Bootstrap - jQuerry - Sass)
+                </li>
+                <li>
+                  FreeCodeCamp Youtube Videos
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
 
@@ -39,12 +41,14 @@ export const Certifications = () => {
             <p>FreeCodeCamp</p>
             <img src={fccImg} width="50px" height="30px" alt="no img"/>
           </div>
-          <div className="div--certifications">
-            <ul>
-              <li className="abs--li">
-                Responsive Web Design
-              </li>
-            </ul>
+          <div className="div--certification">
+            <div className="subdiv--certifications">
+              <ul>
+                <li className="abs--li">
+                  Responsive Web Design
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
 
@@ -55,12 +59,14 @@ export const Certifications = () => {
             <img src={openImg} width="50px" height="30px" alt="no img"/>
           </div>
 
-          <div className="div--certifications">
-            <ul>
-              <li>
-                Mettez en place votre environnement front-end.
-              </li>
-            </ul>
+          <div className="div--certification">
+            <div className="subdiv--certifications">
+              <ul>
+                <li>
+                  Mettez en place votre environnement front-end.
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
 
@@ -71,15 +77,17 @@ export const Certifications = () => {
             <img src={openImg} width="50px" height="30px" alt="no img"/>
           </div>
 
-          <div className="div--certifications">
-            <ul>
-              <li>
-                Apprenez à coder en Javascript
-              </li>
-              <li>
-                Apprenez à programmer avec JavaScript 
-              </li>
-            </ul>
+          <div className="div--certification">
+            <div className="subdiv--certifications">
+              <ul>
+                <li>
+                  Apprenez à coder en Javascript
+                </li>
+                <li>
+                  Apprenez à programmer avec JavaScript 
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
 
@@ -90,21 +98,23 @@ export const Certifications = () => {
             <img src={openImg} width="50px" height="30px" alt="no img"/>
           </div>
 
-          <div className="div--certifications">
-            <ul>
-              <li>
-                Python3
-              </li>
-              <li>
-                POO en Python3
-              </li>
-              <li>
-                Tester vos projets avec Python3
-              </li>
-              <li>
-                Perfectionnez-vous en Python3
-              </li>
-            </ul>
+          <div className="div--certification">
+            <div className="subdiv--certifications">
+              <ul>
+                <li>
+                  Python3
+                </li>
+                <li>
+                  POO en Python3
+                </li>
+                <li>
+                  Tester vos projets avec Python3
+                </li>
+                <li>
+                  Perfectionnez-vous en Python3
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
 
@@ -115,12 +125,14 @@ export const Certifications = () => {
             <img src={openImg} width="50px" height="30px" alt="no img"/>
           </div>
 
-          <div className="div--certifications">
-            <ul>
-              <li>
-                Gérez votre code avec Git et GitHub 
-              </li>
-            </ul>
+          <div className="div--certification">
+            <div className="subdiv--certifications">
+              <ul>
+                <li>
+                  Gérez votre code avec Git et GitHub 
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
 
@@ -131,12 +143,14 @@ export const Certifications = () => {
             <img src={secNumImg} width="50px" height="30px" alt="no img"/>
           </div>
 
-          <div className="div--certifications">
-            <ul>
-              <li>
-                MOOC SecNumAcadémie 
-              </li>
-            </ul>
+          <div className="div--certification">
+            <div className="subdiv--certifications">
+              <ul>
+                <li>
+                  MOOC SecNumAcadémie 
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
 
@@ -147,18 +161,20 @@ export const Certifications = () => {
             <img src={openImg} width="50px" height="30px" alt="no img"/>
           </div>
 
-          <div className="div--certifications">
-            <ul>
-              <li>
-                Comprendre le web
-              </li>
-              <li>
-                Fonctionnement des réseaux <br/> TCP/IP
-              </li>
-              <li>
-                Maîtriser vos applications et réseaux TCP/IP
-              </li>
-            </ul>
+          <div className="div--certification">
+            <div className="subdiv--certifications">
+              <ul>
+                <li>
+                  Comprendre le web
+                </li>
+                <li>
+                  Fonctionnement des réseaux <br/> TCP/IP
+                </li>
+                <li>
+                  Maîtriser vos applications et réseaux TCP/IP
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
 
@@ -169,15 +185,17 @@ export const Certifications = () => {
             <img src={openImg} width="50px" height="30px" alt="no img"/>
           </div>
 
-          <div className="div--certifications">
-            <ul>
-              <li>
-                PHP - MySQL (HTML5 + CSS3)
-              </li>
-              <li>
-                Server apache2 with PHP - MVC (blog)
-              </li>
-            </ul>
+          <div className="div--certification">
+            <div className="subdiv--certifications">
+              <ul>
+                <li>
+                  PHP - MySQL (HTML5 + CSS3)
+                </li>
+                <li>
+                  Server apache2 with PHP - MVC (blog)
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
 
@@ -188,18 +206,20 @@ export const Certifications = () => {
             <img src={openImg} width="50px" height="30px" alt="no img"/>
           </div>
 
-          <div className="div--certifications">
-            <ul>
-              <li>
-                Protégez l’ensemble de vos données sur votre ordinateur
-              </li>
-              <li>
-                Apprenez à naviguer en sécurité sur Internet
-              </li>
-              <li>
-                Protégez l’ensemble de vos données sur votre ordinateur 
-              </li>
-            </ul>
+          <div className="div--certification">
+            <div className="subdiv--certifications">
+              <ul>
+                <li>
+                  Protégez l’ensemble de vos données sur votre ordinateur
+                </li>
+                <li>
+                  Apprenez à naviguer en sécurité sur Internet
+                </li>
+                <li>
+                  Protégez l’ensemble de vos données sur votre ordinateur 
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
 
@@ -210,21 +230,23 @@ export const Certifications = () => {
             <img src={openImg} width="50px" height="30px" alt="no img"/>
           </div>
 
-          <div className="div--certifications">
-            <ul>
-              <li>
-                Programmation en C
-              </li>
-              <li>
-                Linux
-              </li>
-              <li>
-                HTML5
-              </li>
-              <li>
-                CSS3
-              </li>
-            </ul>
+          <div className="div--certification">
+            <div className="subdiv--certifications">
+              <ul>
+                <li>
+                  Programmation en C
+                </li>
+                <li>
+                  Linux
+                </li>
+                <li>
+                  HTML5
+                </li>
+                <li>
+                  CSS3
+                </li>
+              </ul>
+            </div>
           </div>
         </article>
 
