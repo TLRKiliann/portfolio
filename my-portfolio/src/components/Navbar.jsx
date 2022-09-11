@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import openImg from '../assets/images/openclass_logo.png';
 import fccImg from '../assets/images/fcc_primary_small.png';
+import pythonImg from '../assets/images/python_logo.png';
 import ghImg from '../assets/images/gh_logo.png';
 import viteImg from '../assets/images/vite_logo.svg';
 import reactImg from '../assets/images/react_logo.svg';
@@ -40,15 +41,22 @@ export const Navbar = () => {
         <div className="flexible--img">
 
           <img id="img--oc"
-            src={openImg} alt="no libImg !"
+            src={openImg} alt="no openImg !"
            />
 
           <img id="img--fcc"
-            src={fccImg} alt="no libImg !"
+            src={fccImg} alt="no fccImg !"
            />
 
+
+          <img id="img--python"
+            src={pythonImg} alt="no pythonImg !"
+           />
+
+
+
           <img id="img--gh"
-            src={ghImg} alt="no libImg !"
+            src={ghImg} alt="no ghImg !"
            />
 
           <img id="img--vite"
@@ -64,11 +72,11 @@ export const Navbar = () => {
            />
 
           <img id="img--redux"
-            src={reduxImg} alt="no libImg !"
+            src={reduxImg} alt="no reduxImg !"
            />
 
           <img id="img--ts"
-            src={tsImg} alt="no libImg !"
+            src={tsImg} alt="no tsImg !"
            />
 
         </div>
