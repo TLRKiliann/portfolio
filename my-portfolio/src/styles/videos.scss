@@ -1,3 +1,35 @@
+.video--portfolio {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 98vh;
+
+  opacity: 0;
+
+  animation-name: videostart;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-duration: 4.2s;
+}
+
+@keyframes videostart {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .videos {
   position: absolute;
   top: 100px;

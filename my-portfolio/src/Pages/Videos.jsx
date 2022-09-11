@@ -1,3 +1,4 @@
+import Video from '../assets/videos/videos_vid.mp4';
 import YouTube from 'react-youtube';
 import '../styles/videos.scss';
 
@@ -11,6 +12,11 @@ export const Videos = () => {
 
   return (
     <div className="videos">
+
+      <video className="video--portfolio" autoPlay>
+        <source src={Video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
       <h1 className="main--title">Videos</h1>
 

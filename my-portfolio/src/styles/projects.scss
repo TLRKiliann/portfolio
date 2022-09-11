@@ -18,3 +18,33 @@
 
   color: #ccd6f6;
 }
+
+/*Animation Scss*/
+
+.parent--div {
+  position: relative;
+}
+
+.abs--div {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  font-size: 2rem;
+}
+
+.child--div {
+  position: absolute;
+  border: 2px solid white;
+  color: grey; 
+}
+
+$base-color: #036;
+
+@for $i from 1 through 5 {
+  span:nth-child(5n + #{$i}) {
+    background-color: lighten($base-color, $i * 5%);
+    margin-left: 10px;
+  }
+}
