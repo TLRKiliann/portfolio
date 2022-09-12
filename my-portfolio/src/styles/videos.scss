@@ -1,3 +1,14 @@
+.videos {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  bottom: -1400px;
+  left: 0px;
+
+  background: black;
+  color: white;
+}
+
 .video--portfolio {
   position: absolute;
   top: 0px;
@@ -10,6 +21,7 @@
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-duration: 4.2s;
+  transition-timing-function: ease;
 }
 
 @keyframes videostart {
@@ -30,15 +42,24 @@
   }
 }
 
-.videos {
+.opacity--div {
   position: absolute;
-  top: 100px;
-  right: 0px;
-  bottom: -1400px;
-  left: 0px;
+  opacity: 1;
 
-  background: black;
-  color: white;
+  animation-name: maindashboard;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-duration: 4.8s;
+  transition-timing-function: ease;
+}
+
+@keyframes maindashboard {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .main--title {
