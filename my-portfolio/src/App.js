@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
-import { Curriv } from './Pages/Curriv';
+import { Contact } from './Pages/Contact';
 import { Certifications } from './Pages/Certifications';
-import { Projects } from './Pages/Projects';
+import { About } from './Pages/About';
 import { Videos } from './Pages/Videos';
 import './App.scss';
 
@@ -13,9 +13,9 @@ const App = () => {
     <div className="div--origin">
       <Navbar />
       <Routes>
-        <Route path='/' element={<Curriv />} />
+        <Route path='/' element={<About />} />
         <Route path='/Certifications' element={<Certifications />} />
-        <Route path='/Projects' element={<Projects />} />
+        <Route path='/Contact' element={<Contact />} />
         <Route path='/Videos' element={<Videos />} />
       </Routes>
     </div>

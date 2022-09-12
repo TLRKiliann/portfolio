@@ -1,0 +1,229 @@
+.projects {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  bottom: -1200px;
+  left: 0px;
+  
+  border: 2px solid orange;
+  background: black;
+  color: white;
+}
+
+/*Effect with title*/
+
+.spin h1 {
+  width: 300px;
+  border: 2px solid lightblue;
+
+}
+
+.main--projecttitle {
+
+
+  padding: 20px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+
+  font-family: 'Consolas';
+  font-size: 2rem;
+
+  background: black;
+  color: #ccd6f6;
+
+  border: 2px solid coral;
+
+  animation-name: rotation;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-timing-function: linear ease-in-out;
+}
+/*
+@keyframes rotation {
+  0% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  25% {
+    transform: rotate3d(1, -2, 1, 360deg);
+  }
+  50% {
+    transform: rotate3d(1, 0, 0, 360deg);
+  }
+  100% {
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}*/
+
+
+/*Effect of intro*/
+
+.pdf--caption {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 39%;
+  padding: 15px 20px;
+
+  text-decoration: none;
+  font-family: 'Consolas', cursive;
+  font-size: 1.2rem;
+
+  background: transparent;
+  color: whitesmoke;
+  opacity: 0;
+  transform: scale(0.2);
+  overflow: hidden;
+
+  animation-name: caption;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-function-timing: ease;
+  z-index: 10;
+}
+
+@keyframes caption {
+  0% {
+    opacity: 1;
+    transform: scale(200);
+    animation-function-timing: ease;
+    overflow: hidden;
+  }
+  95% {
+    opacity: 0.8;
+    transform: scale(0.3);
+    animation-function-timing: ease;
+    overflow: hidden;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.2);
+    animation-function-timing: ease;
+    overflow: hidden;
+  }
+}
+
+/*End of effect of intro*/
+
+
+.mainproject--div {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  background: black;
+  color: white; 
+
+  border: 2px solid orange;
+}
+
+.main--content {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border: 2px solid hotpink;
+}
+
+.about--me {
+  width: 40%;
+  margin: 40px 0px;
+  margin-left: 100px;
+  
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 2px #5cd6b0;
+}
+
+.art--aboutme {
+  padding: 20px 20px;
+}
+
+.art--aboutme h3 {
+  margin: auto;
+  font-family: 'Consolas';
+
+  color: white;
+}
+
+.art--aboutme p {
+  margin: auto;
+  margin: 20px 0px;
+  text-align: justify;
+  text-indent: 10px;
+  color: #5cd6b0;
+}
+
+.cv--pdf {
+  color: #5cd6b0;
+}
+
+.cv--pdf:hover {
+  color: white;
+}
+
+/*Photo right side*/
+
+.flex--photo {
+  margin: 0px 100px;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.div--content {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 70%;
+  height: 70%;
+}
+
+.filter--photo {
+  position: absolute;
+  width: 262px;
+  height: 280px;
+  margin: auto;
+
+  background-color: rgba(0,255,0,.4);
+}
+
+
+.div--content2 {
+  position: absolute;
+  top: 1030px;
+  right: 200px;
+  left: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  background: #112240;
+
+  border: 1px solid #112240;
+
+}
+
+.div--content2 h3 {
+  margin: 10px 20px;
+  padding: 10px 10px;
+  color: #ccd6f6;
+
+  border: 2px solid lightblue;
+}
+
+.div--content2 p {
+  margin: 10px 20px;
+  margin-top: 0px;
+  padding: 20px 20px;
+  text-align: justify;
+  color: #5cd6b0;
+
+  border: 2px solid orange;
+}

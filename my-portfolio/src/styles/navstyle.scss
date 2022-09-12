@@ -60,34 +60,8 @@ body {
   /*border: 2px solid white;*/
 }
 
-#img--oc {
-  margin: 0px 5px;
-  padding: 10px 10px;
-
-  width: 60px;
-  height: 60px;
-}
-
-#img--fcc {
-  margin: 0px 5px;
-  padding: 10px 10px;
-
-  width: 45px;
-  height: 30px;
-  /*border: 2px solid orange;*/
-}
-
-#img--python {
-  margin: 0px 5px;
-  padding: 10px 10px;
-
-  width: 35px;
-  height: 35px;
-  /*border: 2px solid orange;*/
-}
-
 #img--gh {
-  margin: 0px 5px;
+  margin: 0px 0px;
   padding: 10px 0px;
 
   width: 65px;
@@ -95,9 +69,18 @@ body {
   /*border: 2px solid orange;*/
 }
 
+#img--python {
+  margin: 0px 5px;
+  padding: 10px 5px;
+
+  width: 35px;
+  height: 35px;
+  /*border: 2px solid orange;*/
+}
+
 #img--vite {
-  margin: 2px 5px;
-  padding: 10px 10px;
+  margin: 0px 0px;
+  padding: 10px 5px;
 
   width: 37px;
   height: 37px;
@@ -105,7 +88,7 @@ body {
 }
 
 #img--react {
-  margin: 0px 5px;
+  margin: 0px 0px;
   padding: 0px 0px;
 
   width: 65px;
@@ -117,14 +100,14 @@ body {
   margin: 0px 5px;
   padding: 10px 10px;
 
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   /*border: 2px solid orange;*/
 }
 
 #img--redux {
   margin: 0px 0px;
-  padding: 10px 15px;
+  padding: 10px 5px;
 
   width: 40px;
   height: 35px;
@@ -133,9 +116,26 @@ body {
 
 #img--ts {
   margin: 0px 5px;
-  padding: 10px 15px;
+  padding: 10px 5px;
   width: 40px;
   height: 40px;
 
+  /*border: 2px solid orange;*/
+}
+
+#img--mysql {
+  margin: 0px 5px;
+  padding: 10px 10px;
+
+  width: 35px;
+  height: 35px;
+}
+
+#img--mongoose {
+  margin: 0px 10px;
+  padding: 10px 10px;
+
+  width: 35px;
+  height: 35px;
   /*border: 2px solid orange;*/
 }

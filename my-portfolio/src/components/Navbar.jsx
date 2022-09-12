@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import openImg from '../assets/images/openclass_logo.png';
-import fccImg from '../assets/images/fcc_primary_small.png';
+import mysqlImg from '../assets/images/mysql_logo.png';
+import mongooseImg from '../assets/images/mongoose_logo.png';
 import pythonImg from '../assets/images/python_logo.png';
 import ghImg from '../assets/images/gh_logo.png';
 import viteImg from '../assets/images/vite_logo.svg';
@@ -21,15 +21,15 @@ export const Navbar = () => {
         <div className="flexible--links">
 
           <Link to='/' as={Link} style={{textDecoration: 'none'}}>
-            <h4>CV</h4>
+            <h4>About</h4>
           </Link>
 
           <Link to='/Certifications' as={Link} style={{textDecoration: 'none'}}>
             <h4>Certifications</h4>
           </Link>
 
-          <Link to='/Projects' as={Link} style={{textDecoration: 'none'}}>
-            <h4>Projects</h4>
+          <Link to='/Contact' as={Link} style={{textDecoration: 'none'}}>
+            <h4>Contact</h4>
           </Link>
 
           <Link to='/Videos' as={Link} style={{textDecoration: 'none'}}>
@@ -40,35 +40,24 @@ export const Navbar = () => {
 
         <div className="flexible--img">
 
-          <img id="img--oc"
-            src={openImg} alt="no openImg !"
+          <img id="img--gh"
+            src={ghImg} alt="no ghImg !"
            />
-
-          <img id="img--fcc"
-            src={fccImg} alt="no fccImg !"
-           />
-
 
           <img id="img--python"
             src={pythonImg} alt="no pythonImg !"
            />
 
-
-
-          <img id="img--gh"
-            src={ghImg} alt="no ghImg !"
-           />
-
-          <img id="img--vite"
-            src={viteImg} alt="no viteImg !"
+          <img id="img--lib"
+            src={libImg} alt="no libImg !"
            />
 
           <img id="img--react"
             src={reactImg} alt="no reactImg !"
            />
 
-          <img id="img--lib"
-            src={libImg} alt="no libImg !"
+          <img id="img--vite"
+            src={viteImg} alt="no viteImg !"
            />
 
           <img id="img--redux"
@@ -77,6 +66,14 @@ export const Navbar = () => {
 
           <img id="img--ts"
             src={tsImg} alt="no tsImg !"
+           />
+
+          <img id="img--mysql" style={{background: 'lightgrey', borderRadius: '50%'}}
+            src={mysqlImg} alt="no openImg !"
+           />
+
+          <img id="img--mongoose" style={{background: 'lightgrey', borderRadius: '50%'}}
+            src={mongooseImg} alt="no fccImg !"
            />
 
         </div>

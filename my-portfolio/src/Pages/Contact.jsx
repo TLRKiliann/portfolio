@@ -1,16 +1,16 @@
 import cvPdf from '../assets/files/cv_final.pdf';
 import winLogo from '../assets/images/win_logo.jpg';
-import '../styles/cv.scss';
+import '../styles/contact.scss';
 
-export const Curriv = () => {
+export const Contact = () => {
   return (
-    <div className="cv">
+    <div className="contact">
 
       <div className="div--win">
         <img src={winLogo} alt="no winLogo img!" className="img--win"/>
       </div>
       
-      <h1 className="main--cvtitle">Curriculum Vitae</h1>
+      <h1 className="main--cvtitle">Contact</h1>
 
       <a 
         href={cvPdf}

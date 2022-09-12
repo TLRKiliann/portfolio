@@ -1,0 +1,58 @@
+.contact {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+
+  /*background: #151212;*/
+  background: black;
+  opacity: 1;
+  color: white;
+
+  overflow: hidden;
+}
+
+.main--cvtitle {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 20px;
+
+  font-family: 'Consolas';
+  font-size: 2rem;
+
+  color: #ccd6f6;
+}
+
+
+.div--win {
+  position: fixed;
+  top: 100px;
+  background-position: center;
+  background-size: "cover";
+  opacity: 0.4;
+
+  animation-name: winner;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-function-timing: ease;
+}
+
+@keyframes winner {
+  0% {
+    opacity: 0;
+    animation-function-timing: ease;
+  }
+  100% {
+    opacity: 0.4;
+    animation-function-timing: ease;
+  }
+}
+
+
+
+.img--win {
+  height: 90%;
+  width: 90%;
+}
