@@ -13,15 +13,11 @@
 /*Effect with title*/
 
 .spin h1 {
-  width: 300px;
-  border: 2px solid lightblue;
-
+  width: 100px;
 }
 
 .main--projecttitle {
 
-
-  padding: 20px 20px;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 20px;
@@ -29,31 +25,31 @@
   font-family: 'Consolas';
   font-size: 2rem;
 
-  background: black;
   color: #ccd6f6;
-
-  border: 2px solid coral;
 
   animation-name: rotation;
   animation-delay: 0s;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: linear ease-in-out;
 }
-/*
+
 @keyframes rotation {
   0% {
-    transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, -2, 2, 360deg);
   }
   25% {
-    transform: rotate3d(1, -2, 1, 360deg);
+    transform: rotate3d(0, -3, -3, 270deg);
   }
   50% {
-    transform: rotate3d(1, 0, 0, 360deg);
+    transform: rotate3d(1, 3, -1, 180deg);
+  }
+  75% {
+    transform: rotate3d(-3, -2, 0, 90deg);
   }
   100% {
-    transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 2, 2, 0);
   }
-}*/
+}
 
 
 /*Effect of intro*/
