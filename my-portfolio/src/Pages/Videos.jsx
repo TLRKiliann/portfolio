@@ -93,9 +93,9 @@ export const Videos = () => {
                   videoId="xzJERsvW6Ts"
                   className="YouTube--video"
                   />
-                <h4>SSH & SCP + MySQL & pymysql</h4>
-                <p>Application made with python3-tkinter
-                  with connection server-client.</p>
+                <h4>Scroll and click with Javascript</h4>
+                <p>Change background with click or scroll.
+                  HTML - CSS - JS</p>
                 <a
                   href="https://github.com/TLRKiliann/timetrack"
                   rel="noreferrer"
@@ -108,7 +108,7 @@ export const Videos = () => {
                   className="YouTube--video"
                   />
                 <h4>Unicode(ASCII) keybord events</h4>
-                <p>Great demo about unicode with event in Javacript.</p>
+                <p>Unicode with event keybord & click in Javacript.</p>
                 <a
                   href="https://github.com/TLRKiliann/"
                   rel="noreferrer"

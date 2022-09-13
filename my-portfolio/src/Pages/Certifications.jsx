@@ -8,24 +8,26 @@ export const Certifications = () => {
   return (
     <div className="certif">
 
-      <div className="parent--certifanim">
-        <div className="certif--anim">
-          <div className="certif--title">
-            <span>C</span>
-            <span>e</span>
-            <span>r</span>
-            <span>t</span>
-            <span>i</span>
-            <span>f</span>
-            <span>i</span>
-            <span>c</span>
-            <span>a</span>
-            <span>t</span>
-            <span>i</span>
-            <span>o</span>
-            <span>n</span>
-            <span>s</span>
-          </div>
+      <div className="flash--bg">
+        
+      </div>
+
+      <div className="certif--anim">
+        <div className="nth-child">
+          <span>C</span>
+          <span>e</span>
+          <span>r</span>
+          <span>t</span>
+          <span>i</span>
+          <span>f</span>
+          <span>i</span>
+          <span>c</span>
+          <span>a</span>
+          <span>t</span>
+          <span>i</span>
+          <span>o</span>
+          <span>n</span>
+          <span>s</span>
         </div>
       </div>
 

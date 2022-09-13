@@ -9,20 +9,20 @@ export const Contact = () => {
         <img src={winLogo} alt="no winLogo img!" className="img--win"/>
       </div>
       
-      <h1 className="main--cvtitle">Contact</h1>
+      <h1 className="main--contacttitle">Contact</h1>
 
       <div className="perso--data">
         <div className="subperso--data">
-          <span>Web Dev Front & Backend</span>
-          <span>Cédric K.</span>
+          <span className="span">Web Dev Front & Backend</span>
+          <span className="span">Cédric K.</span>
           <a
             href = "mailto: cedric.kuchen@protonmail.com"
             className="email--tag">
-            Send Email
+            cedric.kuchen@protonmail.com
           </a>
-          <span>+41 79 210 32 30</span>
-          <span>Switzerland</span>
-          <span>Lausanne</span>
+          <span className="span">+41 79 210 32 30</span>
+          <span className="span">Switzerland</span>
+          <span className="span">Lausanne</span>
         </div>
       </div>
 

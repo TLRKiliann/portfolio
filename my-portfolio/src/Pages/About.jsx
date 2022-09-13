@@ -13,11 +13,20 @@ export const About = () => {
           <h1 className="main--projecttitle">
             About
           </h1>
+          <a
+            href={cvPdf}
+            title="open link in new tab"
+            target="_blank"
+            rel="noreferrer"
+            className="cv--pdf"
+          >
+            Curriculum Vitae
+          </a>
         </div>
       </div>
 
       <div className="div--caption">
-        <span className="pdf--caption">
+        <span className="title--caption">
           Wellcome !
         </span>
       </div>
@@ -58,15 +67,6 @@ export const About = () => {
                 Actually, I'm studying more about web API. I follow fullstack course
                 online of University of Helsiniki.
               </p>
-              <a
-                href={cvPdf}
-                title="open link in new tab"
-                target="_blank"
-                rel="noreferrer"
-                className="cv--pdf"
-              >
-                Curriculum Vitae
-              </a>
             </article>
           </div>
 
@@ -74,11 +74,13 @@ export const About = () => {
             <div className="div--content">
               <img src={photoLogo} className="img--photo" alt='no photo_logo !'/>
               <div className="filter--photo">
-              <div className="design--photo">
-              </div>
+                <div className="design--photo">
+                </div>
               </div>
             </div>
+          
           </div>
+
         </div>
         
         <div className="main--content">

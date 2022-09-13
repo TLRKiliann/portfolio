@@ -10,15 +10,34 @@
   color: white;
 }
 
+.spin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 /*Effect with title*/
 .spin h1 {
-  width: 100px;
+  width: 110px;
+}
+
+.spin a {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 180px;
+  text-decoration: none;
+  z-index: 9;
+}
+
+.spin a:hover {
+  color: white;
+
 }
 
 .main--projecttitle {
 
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-left: 20px;
 
   font-family: 'Consolas';
@@ -53,7 +72,7 @@
 
 /*Effect of intro*/
 .div--caption {
-  position: absolute;
+  position: fixed;
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -86,7 +105,7 @@
   }
 }
 
-.pdf--caption {
+.title--caption {
   position: absolute;
   top: 0px;
   right: 0px;
@@ -102,7 +121,7 @@
   font-size: 3rem;
   font-weight: bold;
 
-  color: lightgreen;
+  color: whitesmoke;
   
   /*border: 2px solid lightgreen;*/
 }

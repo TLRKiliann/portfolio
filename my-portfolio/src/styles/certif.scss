@@ -9,54 +9,46 @@
   color: white;
 }
 
-/*Animation title*/
-.parent--certifanim {
-}
-
-.certif--anim {
-  top: 100px;
+.flash--bg {
+  position: absolute;
+  top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  font-size: 2rem;
+  opacity: 0;
+
+  background: white;
+
+  animation-name: flash;
+  animation-delay: 0s;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-function-timing: ease;
 }
 
-.certif--title {
-  color: grey; 
-}
-
-$base-color: black;
-
-@for $i from 1 through 14 {
-  span:nth-child(14n + #{$i}) {
-    background-color: lighten($base-color, $i * 3%);
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
-
+/*Animation title*/
+.certif--anim {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 2rem;
+}
 
 
 
 /*end animation*/
 
-
-.filter--div {
-  background-image: linear-gradient(30deg, rgba(0,0,255,.7),
-  rgba(0,0,255,0.7) 100%);
-}
-
-.certif--title {
-  margin-top: 40px;
-  margin-left: 20px;
-
-  font-family: 'Consolas';
-  font-size: 2rem;
-
-  color: #ccd6f6;
-}
-
 .section--certif {
-  margin: 40px 20px;
+  margin: 100px 20px;
   padding: 20px;
   /*text-align: center;*/
   display: grid;
@@ -82,7 +74,7 @@ $base-color: black;
 }
 
 .art--tag h3 {
-  margin-left: 50px;
+  margin-left: 40px;
   color: grey;
 }
 

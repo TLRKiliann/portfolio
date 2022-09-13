@@ -13,7 +13,7 @@
   overflow: hidden;
 }
 
-.main--cvtitle {
+.main--contacttitle {
   position: absolute;
   margin-top: 40px;
   margin-left: 20px;
@@ -29,11 +29,11 @@
   top: 100px;
   background-position: center;
   background-size: "cover";
-  opacity: 0.4;
+  opacity: 0.2;
 
   animation-name: winner;
   animation-delay: 0s;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
   animation-function-timing: ease;
 }
@@ -43,8 +43,12 @@
     opacity: 0;
     animation-function-timing: ease;
   }
-  100% {
+  50% {
     opacity: 0.4;
+    animation-function-timing: ease;
+  }
+  100% {
+    opacity: 0.2;
     animation-function-timing: ease;
   }
 }
@@ -55,10 +59,9 @@
 }
 
 .perso--data {
-
   width: 400px;
   margin: auto;
-  margin-top: 20%;
+  margin-top: 21%;
 }
 
 .subperso--data {
@@ -69,20 +72,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 1;
 
-  background-image: linear-gradient(30deg, rgba(0,0,255,.6),
+  background: linear-gradient(30deg, rgba(0,0,255,0.4),
   rgba(0,255,0,0.4) 70%);
   border-radius: 12px;
-  box-shadow: 0px 0px 15px 5px dimgrey;
+  box-shadow: 0px 0px 5px 3px grey;
+  color: whitesmoke;
+
+  animation-name: address;
+  animation-delay: 0s;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
 }
 
-.subperso--data span {
+@keyframes address {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
+.span {
   font-family: 'Consolas';
   font-size: 1.6rem;
   font-weight: bold;
   background: transparent;
-  color: whitesmoke;
 }
 
 .email--tag {
@@ -95,6 +115,6 @@
 }
 
 .email--tag:hover {
-  color: coral;
-  text-shadow: 2px 1px 1px white;
+  text-shadow: 2px 5px 3px white;
+  color: blue;
 }
