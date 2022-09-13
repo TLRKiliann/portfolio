@@ -20,19 +20,19 @@ export const Navbar = () => {
 
         <div className="flexible--links">
 
-          <Link to='/' as={Link} style={{textDecoration: 'none'}}>
+          <Link className="topressbtn" to='/' as={Link} style={{textDecoration: 'none'}}>
             <h4>About</h4>
           </Link>
 
-          <Link to='/Certifications' as={Link} style={{textDecoration: 'none'}}>
+          <Link className="topressbtn" to='/Certifications' as={Link} style={{textDecoration: 'none'}}>
             <h4>Certifications</h4>
           </Link>
 
-          <Link to='/Contact' as={Link} style={{textDecoration: 'none'}}>
+          <Link className="topressbtn" to='/Contact' as={Link} style={{textDecoration: 'none'}}>
             <h4>Contact</h4>
           </Link>
 
-          <Link to='/Videos' as={Link} style={{textDecoration: 'none'}}>
+          <Link className="topressbtn" to='/Videos' as={Link} style={{textDecoration: 'none'}}>
             <h4>Videos</h4>
           </Link>
 

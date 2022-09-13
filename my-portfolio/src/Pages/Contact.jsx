@@ -1,4 +1,3 @@
-import cvPdf from '../assets/files/cv_final.pdf';
 import winLogo from '../assets/images/win_logo.jpg';
 import '../styles/contact.scss';
 
@@ -12,16 +11,20 @@ export const Contact = () => {
       
       <h1 className="main--cvtitle">Contact</h1>
 
-      <a 
-        href={cvPdf}
-        title="open link in new tab"
-        width="810px"
-        height="800px"
-        target="_blank"
-        rel="noreferrer"
-        className="pdf--caption">
-          Curriculum Vitae
-      </a>
+      <div className="perso--data">
+        <div className="subperso--data">
+          <span>Web Dev Front & Backend</span>
+          <span>Cédric K.</span>
+          <a
+            href = "mailto: cedric.kuchen@protonmail.com"
+            className="email--tag">
+            Send Email
+          </a>
+          <span>+41 79 210 32 30</span>
+          <span>Switzerland</span>
+          <span>Lausanne</span>
+        </div>
+      </div>
 
     </div>
   );
