@@ -29,12 +29,12 @@ export const Navbar = () => {
             <h4>Certifications</h4>
           </Link>
 
-          <Link className="topressbtn" to='/Contact' as={Link} style={{textDecoration: 'none'}}>
-            <h4>Contact</h4>
+          <Link className="topressbtn" to='/Videos' as={Link} style={{textDecoration: 'none'}}>
+            <h4>Projects</h4>
           </Link>
 
-          <Link className="topressbtn" to='/Videos' as={Link} style={{textDecoration: 'none'}}>
-            <h4>Videos</h4>
+          <Link className="topressbtn" to='/Contact' as={Link} style={{textDecoration: 'none'}}>
+            <h4>Contact</h4>
           </Link>
 
         </div>

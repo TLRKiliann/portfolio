@@ -40,13 +40,14 @@
   font-family: 'Consolas';
   font-size: 2rem;
 
-  color: #ccd6f6;;
+  color: #ccd6f6;
 
   animation-name: rotation;
   animation-delay: 0s;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear ease-in-out infinite;
+  animation-timing-function: ease-in-out infinite;
+  animation-direction: alternate;
 }
 
 @keyframes rotation {
@@ -116,6 +117,16 @@
 }
 
 /*End of effect of intro*/
+
+.cv--pdf {
+  z-index: 7;
+  color: #5cd6b0;
+}
+
+.cv--pdf:hover {
+  color: white;
+}
+
 .mainproject--div {
   margin-top: 40px;
   display: flex;
@@ -156,7 +167,7 @@
   margin: auto;
   font-family: 'Consolas';
   /*color: #ccd6f6;*/
-  color: lightgrey;
+  color: whitesmoke;
 }
 
 .hr {
@@ -173,13 +184,19 @@
   color: #5cd6b0;
 }
 
-.cv--pdf {
-  z-index: 7;
-  color: #5cd6b0;
+.align--gnu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.cv--pdf:hover {
-  color: white;
+.linus--richard {
+  display: flex;
+}
+
+.gnu--linux {
+
 }
 
 /*Photo right side*/
@@ -231,10 +248,10 @@
   background-color: rgba(0,255,0,.4);
 }
 
-.design--photo {
+.backframe--photo {
   position: absolute;
-  width: 263px;
-  height: 280px;
+  width: 262px;
+  height: 279px;
   top: -20px;
   left: 20px;
   border: 1px solid lightgreen;
@@ -242,7 +259,7 @@
 
 
 .second--content {
-  margin-top: 20px;
+  margin-top: 10%;
 }
 
 .second--divcontent {
@@ -276,9 +293,9 @@
 .div--content2 {
   position: absolute;
   width: 20%;
-  margin-top: -3%;
+  margin-top: -5%;
   margin-left: 55%;
-  padding: 20px 40px;
+  padding: 10px 40px;
 
   background: #112240;
   border: 1px solid #112240;

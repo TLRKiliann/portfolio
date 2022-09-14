@@ -13,22 +13,7 @@ export const Certifications = () => {
       </div>
 
       <div className="certif--anim">
-        <div className="nth-child">
-          <span>C</span>
-          <span>e</span>
-          <span>r</span>
-          <span>t</span>
-          <span>i</span>
-          <span>f</span>
-          <span>i</span>
-          <span>c</span>
-          <span>a</span>
-          <span>t</span>
-          <span>i</span>
-          <span>o</span>
-          <span>n</span>
-          <span>s</span>
-        </div>
+        <h1>Certifications</h1>
       </div>
 
       <div className="filter--div">

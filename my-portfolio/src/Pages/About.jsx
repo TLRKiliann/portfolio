@@ -55,16 +55,17 @@ export const About = () => {
                 Over the last 7 years, my motivation to understand the functioning
                 of computer systems has continued to grow. I learned a lot with
                 GNU/Linux about system calls, systemd, filesystem, io, drivers, 
-                application, web, etc.<br/>
-                
-                Special Thanks to Linus Torvalds
-                &nbsp;<a href={linusImg} target="_blank" rel="noreferrer">
-                <img src={linusImg} style={opts} alt="no Linus img" /></a> & 
-                Richard Stallman
-                &nbsp;<a href={richardImg} target="_blank" rel="noreferrer"><img src={richardImg} 
-                style={opts} alt="no Richard img"/></a>
-                &nbsp;! 
+                application, web, etc.
               </p>
+              <div className="align--gnu">
+                Special Thanks to Linus Torvalds & Richard Stallman&nbsp;<a href={linusImg} 
+                className="linus--richard" target="_blank" rel="noreferrer">
+                <img src={linusImg} style={opts} alt="no Linus img" /></a>
+            
+                <a href={richardImg} className="linus--richard" target="_blank" rel="noreferrer">
+                <img src={richardImg} style={opts} alt="no Richard img"/></a>
+
+              </div>
               <p>
                 I started by learning HTML5, CSS3 and programming in Python3. Then, I 
                 learn more programming languages and how to make web site.<br/>
@@ -75,8 +76,8 @@ export const About = () => {
                 With python3, I realized web application without framework. In my opinion,
                 it's was more interesting to build application with tkinter to interact with
                 a server in LAN (Linux, raspberry, SSH, SCP, MySQL).<br/>
-                After that, I wannted know how web application works and how can I build web 
-                API using Node & React.
+                After that, I wannted know how web application works with framework, and how 
+                can I build web API using Node & React.
               </p>
             </article>
           </div>
@@ -85,7 +86,7 @@ export const About = () => {
             <div className="div--content">
               <img src={photoLogo} className="img--photo" alt='no photo_logo !'/>
               <div className="filter--photo">
-                <div className="design--photo">
+                <div className="backframe--photo">
                 </div>
               </div>
             </div>
@@ -164,7 +165,6 @@ export const About = () => {
           </div>
         </div>
 
-
         <div className="second--content">
           <div className="second--divcontent">
             <article className="art--second">
@@ -174,11 +174,11 @@ export const About = () => {
                 I chose React because it is the most used framework 
                 in the world and for its graphic rendering. It has 
                 several library extensions, which diversifies the 
-                solutions with the virtual DOM. <br/>
-                Also, I found it easy to use.
+                solutions. <br/>
+                Also, I found it easy to use and this is a good place 
+                for creation.
               </p>
             </article>
-
 
             <div className="div--content2">
               <h3>

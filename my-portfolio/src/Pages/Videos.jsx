@@ -53,7 +53,7 @@ export const Videos = () => {
                 <p>Retrieve data from requests on server 
                   PHP with python3 (LAN).</p>
                 <a
-                  href="https://github.com/TLRKiliann/timetrack"
+                  href="https://github.com/TLRKiliann/phpython-server"
                   rel="noreferrer"
                   target="_blank">GitHub repository</a>
               </div>
@@ -64,7 +64,8 @@ export const Videos = () => {
                   className="YouTube--video"
                   />
                 <h4>Python3-tkinter GUI app</h4>
-                <p>Treatments</p>
+                <p>It's about treatments start-stop with a reminder
+                  to stop at date.</p>
                 <a
                   href="https://github.com/TLRKiliann/timetrack"
                   rel="noreferrer"
@@ -96,10 +97,7 @@ export const Videos = () => {
                 <h4>Scroll and click with Javascript</h4>
                 <p>Change background with click or scroll.
                   HTML - CSS - JS</p>
-                <a
-                  href="https://github.com/TLRKiliann/timetrack"
-                  rel="noreferrer"
-                  target="_blank">GitHub repository</a>
+                <span><s style={{color: "dimgrey"}}>GitHub repository</s></span>
               </div>
 
               <div className="yt--video">
@@ -109,10 +107,7 @@ export const Videos = () => {
                   />
                 <h4>Unicode(ASCII) keybord events</h4>
                 <p>Unicode with event keybord & click in Javacript.</p>
-                <a
-                  href="https://github.com/TLRKiliann/"
-                  rel="noreferrer"
-                  target="_blank">GitHub repository</a>
+                <span><s style={{color: "dimgrey"}}>GitHub repository</s></span>
               </div>
 
               <div className="yt--video">
@@ -123,10 +118,7 @@ export const Videos = () => {
                 <h4>Animation Buttons</h4>
                 <p>When user click that generate simultanously actions.
                   great demo !</p>
-                <a
-                  href="https://github.com/TLRKiliann/timetrack"
-                  rel="noreferrer"
-                  target="_blank">GitHub repository</a>
+                <span><s style={{color: "dimgrey"}}>GitHub repository</s></span>
               </div>
 
             </div>
@@ -167,10 +159,10 @@ export const Videos = () => {
                   videoId="ImK_LimwiGY"
                   className="YouTube--video"
                   />
-                <h4>API with axios & json</h4>
-                <p>API.</p>
+                <h4>API REST</h4>
+                <p>Local server to manage data with axios & json (db.json).</p>
                 <a
-                  href="https://github.com/TLRKiliann/"
+                  href="https://github.com/TLRKiliann/Contacts-React"
                   rel="noreferrer"
                   target="_blank">GitHub repository</a>
               </div>
@@ -204,20 +196,53 @@ export const Videos = () => {
 
           <div className="subdiv--videos">
 
-            <h3 className="title--videos">React</h3>
+            <h3 className="title--videos">Others</h3>
 
             <div className="allvideos--div">
 
               <section>
-                Videos
+                <div className="video--sectionsbelow">
+                  <p>React front & back with MySQL</p>
+                  <a className="linktogithub"
+                    href="https://github.com/TLRKiliann/Back-Front-React-MySQL"
+                    rel="noreferrer" target="_blank">
+                    GitHub
+                  </a>
+                </div>
               </section>
 
               <section>
-                Videos2
+                <div className="video--sectionsbelow">
+                  <p>Angular with Routing & Services</p>
+                  <a className="linktogithub"
+                    href="https://github.com/TLRKiliann/angular-app/tree/master/my-app"
+                    rel="noreferrer" target="_blank">
+                    GitHub
+                  </a>
+                </div>
               </section>
 
               <section>
-                Videos3
+                <div className="video--sectionsbelow">
+                  <p>Interactions Drugs (python3)</p>
+                  <a className="linktogithub"
+                    href="https://github.com/TLRKiliann/interactions"
+                    rel="noreferrer" target="_blank">
+                    GitHub
+                  </a>
+                </div>
+              </section>
+
+
+              <section>
+                <div className="video--sectionsbelow">
+                  <p>Climatic Report (python3)</p>
+                  <a className="linktogithub"
+                    href="https://github.com/TLRKiliann/climatic_report"
+                    rel="noreferrer" target="_blank">
+                    GitHub
+                  </a>
+                </div>
               </section>
 
             </div>
