@@ -168,15 +168,14 @@ export const About = () => {
         <div className="second--content">
           <div className="second--divcontent">
             <article className="art--second">
-              <h3>Frontend Web Development</h3>
+              <h3>- Frontend Web Development -</h3>
               <hr className="hr"/>
-              <p>I've worked as a nurse durig 12 years, but my motivation was
-                more greater to understand computing system and functionnalities.<br />
-                I've started by leanrning python3  to realize application. That was 
-                so interesting for me to make an application with tkinter to interact
-                with a mysql server raspberry pi 3.<br />
-                After that, I wannted know how web application works and how can I
-                make project with visualisation effects.
+              <p>
+                I chose React because it is the most used framework 
+                in the world and for its graphic rendering. It has 
+                several library extensions, which diversifies the 
+                solutions with the virtual DOM. <br/>
+                Also, I found it easy to use.
               </p>
             </article>
 

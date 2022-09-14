@@ -44,26 +44,17 @@
 
   animation-name: rotation;
   animation-delay: 0s;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear infinite;
+  animation-timing-function: linear ease-in-out infinite;
 }
 
 @keyframes rotation {
   0% {
-    transform: rotate3d(0, 0, 0, 360deg);
-  }
-  25% {
-    transform: rotate3d(3, -3, 3, 270deg);
-  }
-  50% {
-    transform: rotate3d(2, -2, -2, 180deg);
-  }
-  75% {
-    transform: rotate3d(-1, -1, -3, 270deg);
+    transform: rotate3d(0, 0, 0, 0deg);
   }
   100% {
-    transform: rotate3d(3, 3, -2, 0deg);
+    transform: rotate3d(-2, 2, 1, 360deg);
   }
 }
 
@@ -286,7 +277,7 @@
   position: absolute;
   width: 20%;
   margin-top: -3%;
-  margin-left: 54%;
+  margin-left: 55%;
   padding: 20px 40px;
 
   background: #112240;

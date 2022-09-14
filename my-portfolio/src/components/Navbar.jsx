@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import mysqlImg from '../assets/images/mysql2-logo.png';
-import mongooseImg from '../assets/images/mongoose2_logo.png';
 import pythonImg from '../assets/images/python_logo.png';
 import ghImg from '../assets/images/gh_logo.png';
 import viteImg from '../assets/images/vite_logo.svg';
@@ -9,6 +7,9 @@ import reactImg from '../assets/images/react_logo.svg';
 import libImg from '../assets/images/logo_lib.png';
 import reduxImg from '../assets/images/redux.png';
 import tsImg from '../assets/images/ts.png';
+import mysqlImg from '../assets/images/mysql2-logo.png';
+import mongooseImg from '../assets/images/mongoose2_logo.png';
+import sassImg from '../assets/images/sass_logo.svg';
 import '../styles/navstyle.scss';
 
 
@@ -50,6 +51,10 @@ export const Navbar = () => {
 
           <img id="img--lib"
             src={libImg} alt="no libImg !"
+           />
+
+          <img id="img--sass"
+            src={sassImg} alt="no sassImg !"
            />
 
           <img id="img--react"
