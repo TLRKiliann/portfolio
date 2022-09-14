@@ -5,9 +5,9 @@
   left: 0px;
   height: auto;
   
-  border: 2px solid orange;
   background: black;
   color: white;
+  z-index: 2;
 }
 
 .spin {
@@ -26,53 +26,51 @@
   margin-top: 20px;
   margin-left: 180px;
   text-decoration: none;
-  z-index: 9;
+  z-index: 2;
 }
 
 .spin a:hover {
   color: white;
-
 }
 
 .main--projecttitle {
-
   margin-top: 40px;
-  margin-bottom: 20px;
   margin-left: 20px;
 
   font-family: 'Consolas';
   font-size: 2rem;
 
-  color: #ccd6f6;
+  color: #ccd6f6;;
 
   animation-name: rotation;
   animation-delay: 0s;
-  animation-duration: 4s;
-  animation-timing-function: linear ease-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear infinite;
 }
 
 @keyframes rotation {
   0% {
-    transform: rotate3d(0, -2, 2, 360deg);
+    transform: rotate3d(0, 0, 0, 360deg);
   }
   25% {
-    transform: rotate3d(0, -3, -3, 270deg);
+    transform: rotate3d(3, -3, 3, 270deg);
   }
   50% {
-    transform: rotate3d(1, 3, -1, 180deg);
+    transform: rotate3d(2, -2, -2, 180deg);
   }
   75% {
-    transform: rotate3d(-3, -2, 0, 90deg);
+    transform: rotate3d(-1, -1, -3, 270deg);
   }
   100% {
-    transform: rotate3d(0, 2, 2, 0);
+    transform: rotate3d(3, 3, -2, 0deg);
   }
 }
 
 
 /*Effect of intro*/
 .div--caption {
-  position: fixed;
+  position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -89,7 +87,7 @@
 
   animation-name: caption;
   animation-delay: 0s;
-  animation-duration: 5s;
+  animation-duration: 4s;
   animation-iteration-count: 1;
   animation-function-timing: ease;
 }
@@ -134,50 +132,58 @@
   align-items: left;
 
   background: black;
-  color: white; 
-
-  border: 2px solid orange;
+  color: white;
 }
 
 .main--content {
   display: flex;
   flex-direction: row;
   align-items: center;
-
-  border: 2px solid hotpink;
 }
 
 .about--me {
-  width: 40%;
+  width: 50%;
   margin: 40px 0px;
-  margin-left: 140px;
+  margin-left: 120px;
   
-  border-radius: 15px;
-  box-shadow: 0px 0px 15px 2px #5cd6b0;
+  /*border-radius: 15px;
+  box-shadow: 0px 0px 15px 2px #5cd6b0;*/
+
+  background: transparent;
+  border: 1px solid green;
+  border-radius: 12px;
+  box-shadow: 0px 0px 18px lightgreen;
+  color: white;
+  z-index: 7;
 }
 
 .art--aboutme {
-  padding: 20px 20px;
+  padding: 30px 40px;
 }
 
 .art--aboutme h3 {
   margin: auto;
   font-family: 'Consolas';
-  color: white;
+  /*color: #ccd6f6;*/
+  color: lightgrey;
+}
+
+.hr {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: grey;
 }
 
 .art--aboutme p {
   margin: auto;
   margin: 20px 0px;
-
-  margin-right: 40px;
-  
   text-align: justify;
   text-indent: 10px;
   color: #5cd6b0;
 }
 
 .cv--pdf {
+  z-index: 7;
   color: #5cd6b0;
 }
 
@@ -208,7 +214,7 @@
 
   animation-name: translateImg;
   animation-delay: 0s;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: 1;
   animation-function-timing: ease-in-out;
   transform: translate(0px, 0px);
@@ -217,11 +223,12 @@
 @keyframes translateImg {
   0% {
     transform: translate(20px, -20px);
-    animation-function-timing: ease-out;
+  }
+  50% {
+    transform: translate(20px, -20px);
   }
   100% {
     transform: translate(0px, 0px);
-    animation-function-timing: ease-in;
   }
 }
 
@@ -242,39 +249,56 @@
   border: 1px solid lightgreen;
 }
 
+
+.second--content {
+  margin-top: 20px;
+}
+
+.second--divcontent {
+  display: flex;
+  flex-direction: row;
+}
+
+.art--second {
+  width: 44%;
+  margin: 40px 0px;
+  margin-left: 120px;
+  padding: 20px 40px;
+  /*border-radius: 15px;
+  box-shadow: 0px 0px 15px 2px #5cd6b0;*/
+
+  background: transparent;
+  border: 1px solid green;
+  border-radius: 12px;
+  box-shadow: 0px 0px 18px lightgreen;
+  color: white;
+  z-index: 7; 
+}
+
+.art--second p {
+  padding-right: 40px;
+  text-indent: 10px;
+  text-align: justify;
+  color: #5cd6b0;
+}
+
 .div--content2 {
   position: absolute;
-  top: 870px;
-  width: 300px;
-  height: auto;
-  margin-left: 38%;
-  padding: 20px 0px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: left;
+  width: 20%;
+  margin-top: -3%;
+  margin-left: 54%;
+  padding: 20px 40px;
 
   background: #112240;
   border: 1px solid #112240;
   border-radius: 12px;
-  box-shadow: 0px 0px 10px 5px grey;
-  z-index: 2;
-}
 
-.div--content2 h3 {
-  margin: 0px 20px;
-  padding: 10px 10px;
-  color: #ccd6f6;
-  /*border: 2px solid lightblue;*/
-}
-
-.div--criteria {
-  margin: 10px 20px;
-  text-align: justify;
-  color: #5cd6b0;
-  /*border: 2px solid orange;*/
+  border-radius: 12px;
+  box-shadow: 0px 0px 18px grey;
+  color: whitesmoke;
+  z-index: 12;
 }
 
 .div--criteria li {
-  margin: 10px 0px;
+  margin: 5px 0px; 
 }

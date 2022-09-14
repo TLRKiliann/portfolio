@@ -1,10 +1,17 @@
 import photoLogo from '../assets/images/photo_logo.png';
+import linusImg from '../assets/images/great_linus_torvalds.jpg'; 
+import richardImg from '../assets/images/richard_stallman.jpg';
+
 import cvPdf from '../assets/files/cv_final.pdf';
 import '../styles/about.scss';
 
 
 export const About = () => {
   //replace p by a href="#"!
+  const opts = {
+    height: "30px",
+    weight: "30px",
+  }
   return (
     <div className="projects">
 
@@ -37,35 +44,39 @@ export const About = () => {
 
           <div className="about--me">
             <article className="art--aboutme">
-              <h3>About Me</h3>
+              <h3>- About Me -</h3>
+              <hr className="hr"/>
               <p>
-                My name is Cédric, and I'm searching a job in web development.
-                I'm very interested by web app, and I will be glade to work with.
+                My name is Cedric, and I'm looking for a job in web development.
+                I am very interested in web applications and how they work. I will
+                be happy to work in the front or backend or both.
               </p>
-              <p>
-                Over the last 7 years, my motivation to understand the
-                functioning of computer systems has continued to grow.
+              <p style={{display: 'block'}}>
+                Over the last 7 years, my motivation to understand the functioning
+                of computer systems has continued to grow. I learned a lot with
+                GNU/Linux about system calls, systemd, filesystem, io, drivers, 
+                application, web, etc.<br/>
+                
+                Special Thanks to Linus Torvalds
+                &nbsp;<a href={linusImg} target="_blank" rel="noreferrer">
+                <img src={linusImg} style={opts} alt="no Linus img" /></a> & 
+                Richard Stallman
+                &nbsp;<a href={richardImg} target="_blank" rel="noreferrer"><img src={richardImg} 
+                style={opts} alt="no Richard img"/></a>
+                &nbsp;! 
               </p>
               <p>
                 I started by learning HTML5, CSS3 and programming in Python3. Then, I 
-                learn more programming languages and how to make web site.
-              </p>
-              <p>
+                learn more programming languages and how to make web site.<br/>
                 My first web site (WAN) was made with PHP, MySQL on raspberry 3 server
                 with apache2.
               </p>
               <p>
-                With python3, I realized web application without framework. For me it's
-                was more interesting to build application with tkinter to interact
-                with a server in LAN (Linux, raspberry, SSH, SCP, MySQL).
-              </p>
-              <p>
-                After that, I wannted know how web application works and how can I
-                build web API using Node & React.
-              </p>
-              <p>
-                Actually, I'm studying more about web API. I follow fullstack course
-                online of University of Helsiniki.
+                With python3, I realized web application without framework. In my opinion,
+                it's was more interesting to build application with tkinter to interact with
+                a server in LAN (Linux, raspberry, SSH, SCP, MySQL).<br/>
+                After that, I wannted know how web application works and how can I build web 
+                API using Node & React.
               </p>
             </article>
           </div>
@@ -78,15 +89,15 @@ export const About = () => {
                 </div>
               </div>
             </div>
-          
           </div>
-
         </div>
         
-        <div className="main--content">
-          <div className="about--me">
-            <article className="art--aboutme">
-              <h3>Linux</h3>
+
+        <div className="second--content">
+          <div className="second--divcontent">
+            <article className="art--second">
+              <h3>- Linux -</h3>
+              <hr className="hr"/>
               <p>My goal was to understand how a computer works,
                 so I begun to install Linux, because there are many
                 accessing configuration. Linux realy help me how work 
@@ -97,7 +108,7 @@ export const About = () => {
 
             <div className="div--content2">
               <h3>
-                Linux
+                Versions
               </h3>
               <div className="div--criteria">
                 <ul>
@@ -106,18 +117,59 @@ export const About = () => {
                   <li>Debian</li>
                   <li>Xubuntu Voyager XFCE4</li>
                   <li>Kalilinux</li>
+                  <li>Raspberry pi 3b</li>
+                  <li>Raspberry pi 4</li>
                 </ul>
               </div>
             </div>
+
           </div>
         </div>
 
 
-        <div className="main--content">
+        <div className="second--content">
+          <div className="second--divcontent">
+            <article className="art--second">
+              <h3>- Backend Web Development -</h3>
+              <hr className="hr"/>
+              <p>I changed my job after 12 years, because I 
+                was more motivated to understand the computer 
+                system and its features.<br/>
+                I started by learning python3 to make applications. 
+                It was so interesting to make an application that 
+                interacts with a mysql server on raspberry pi 3.
+                After that, I varied my skills with PHP/MySQL to build
+                a server site with apache2.<br/>
+                I can interact with MySQL & Mongoose with React (CRUD,
+                login, sign-up, API, local db (js or json)).
+              </p>
+            </article>
 
-          <div className="about--me">
-            <article className="art--aboutme">
-              <h3>WEB</h3>
+            <div className="div--content2">
+              <h3>
+                Backend
+              </h3>
+              <div className="div--criteria">
+                <ul>
+                  <li>PHP - MySQL</li>
+                  <li>Apache2</li>
+                  <li>MySQL</li>
+                  <li>Mongoose</li>
+                  <li>JSON(with local db)</li>
+                  <li>API REST & RESTfull</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div className="second--content">
+          <div className="second--divcontent">
+            <article className="art--second">
+              <h3>Frontend Web Development</h3>
+              <hr className="hr"/>
               <p>I've worked as a nurse durig 12 years, but my motivation was
                 more greater to understand computing system and functionnalities.<br />
                 I've started by leanrning python3  to realize application. That was 
@@ -127,40 +179,25 @@ export const About = () => {
                 make project with visualisation effects.
               </p>
             </article>
-          </div>
 
-          <div className="div--content3">
-            <h3>
-              API REST & RESTfull - React (mongoose)
-            </h3>
-            <p>truc</p>
-          </div>
-        </div>
 
-        <div className="main--content">
+            <div className="div--content2">
+              <h3>
+                Frontend
+              </h3>
+              <div className="div--criteria">
+                <ul>
+                  <li>Redux</li>
+                  <li>TypeScript</li>
+                  <li>Bootstrap</li>
+                  <li>SCSS</li>
+                  <li>jQuery</li>
+                </ul>
+              </div>
+            </div>
 
-          <div className="about--me">
-            <article className="art--aboutme">
-              <h3>Frontend Web Developer React</h3>
-              <p>I've worked as a nurse durig 12 years, but my motivation was
-                more greater to understand computing system and functionnalities.<br />
-                I've started by leanrning python3  to realize application. That was 
-                so interesting for me to make an application with tkinter to interact
-                with a mysql server raspberry pi 3.<br />
-                After that, I wannted know how web application works and how can I
-                make project with visualisation effects.
-              </p>
-            </article>
-          </div>
-
-          <div className="div--content4">
-            <h3>
-              React-TypeScript
-            </h3>
-            <p>truc</p>
           </div>
         </div>
-
       </section>
 
     </div>

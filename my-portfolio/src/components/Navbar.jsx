@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import mysqlImg from '../assets/images/mysql_logo.png';
-import mongooseImg from '../assets/images/mongoose_logo.png';
+import mysqlImg from '../assets/images/mysql2-logo.png';
+import mongooseImg from '../assets/images/mongoose2_logo.png';
 import pythonImg from '../assets/images/python_logo.png';
 import ghImg from '../assets/images/gh_logo.png';
 import viteImg from '../assets/images/vite_logo.svg';
@@ -68,11 +68,11 @@ export const Navbar = () => {
             src={tsImg} alt="no tsImg !"
            />
 
-          <img id="img--mysql" style={{background: 'lightgrey', borderRadius: '50%'}}
+          <img id="img--mysql" style={{background: 'black'}}
             src={mysqlImg} alt="no openImg !"
            />
 
-          <img id="img--mongoose" style={{background: 'lightgrey', borderRadius: '50%'}}
+          <img id="img--mongoose" style={{background: 'lightgrey'}}
             src={mongooseImg} alt="no fccImg !"
            />
 

@@ -13,16 +13,18 @@ export const Contact = () => {
 
       <div className="perso--data">
         <div className="subperso--data">
-          <span className="span">Web Dev Front & Backend</span>
-          <span className="span">Cédric K.</span>
-          <a
+          <span
+            className="span"
+            style={{color: 'orange', marginBottom: '10px', fontWeight: 'bold'}}>
+              Web Dev Front & Backend
+          </span>
+          <span className="span">Name : Cédric Kuchen</span>
+          <span className="span">e-mail : <a
             href = "mailto: cedric.kuchen@protonmail.com"
             className="email--tag">
             cedric.kuchen@protonmail.com
-          </a>
-          <span className="span">+41 79 210 32 30</span>
-          <span className="span">Switzerland</span>
-          <span className="span">Lausanne</span>
+          </a></span>
+          <span className="span">Phone : +41 79 210 32 30</span>
         </div>
       </div>
 

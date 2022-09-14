@@ -59,14 +59,14 @@
 }
 
 .perso--data {
-  width: 400px;
+  width: 600px;
   margin: auto;
   margin-top: 21%;
 }
 
 .subperso--data {
   position: fixed;
-  width: 400px;
+  width: 550px;
 
   padding: 20px 20px;
   display: flex;
@@ -74,11 +74,14 @@
   align-items: center;
   opacity: 1;
 
-  background: linear-gradient(30deg, rgba(0,0,255,0.4),
-  rgba(0,255,0,0.4) 70%);
-  border-radius: 12px;
-  box-shadow: 0px 0px 5px 3px grey;
-  color: whitesmoke;
+  background: linear-gradient(30deg, rgba(0,0,255,0.5),
+  rgba(0,0,0,0.4) 70%);
+
+  border: 1px solid green;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px grey;
+  
+  color: lightgrey;
 
   animation-name: address;
   animation-delay: 0s;
@@ -101,7 +104,6 @@
 .span {
   font-family: 'Consolas';
   font-size: 1.6rem;
-  font-weight: bold;
   background: transparent;
 }
 
@@ -110,11 +112,11 @@
   font-size: 1.6rem;
   font-weigth: bold;
   text-decoration: none;
-  color: white;
-  text-shadow: 2px 1px 1px blue;
+  color: blue;
+  text-shadow: 1px 1px 2px white;
 }
 
 .email--tag:hover {
-  text-shadow: 2px 5px 3px white;
-  color: blue;
+  color: white;
+  text-shadow: 1px 1px 2px blue;
 }
