@@ -1,6 +1,7 @@
 import winLogo from '../assets/images/win_logo.jpg';
 import '../styles/contact.scss';
 
+
 export const Contact = () => {
   return (
     <div className="contact">
@@ -15,8 +16,13 @@ export const Contact = () => {
         <div className="subperso--data">
           <span
             className="span--contact"
-            style={{color: 'orange', marginBottom: '10px', fontWeight: 'bold'}}>
-              Web Dev Front & Backend
+            style={{
+              color: 'orange',
+              marginBottom: '20px',
+              fontWeight: 'bold',
+              fontSize: '2.4rem'
+            }}>
+            Web Developer
           </span>
           <span className="span--contact">Name : Cédric Kuchen</span>
           <span className="span--contact">e-mail : <a

@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 /*Effect with title*/
@@ -22,15 +23,33 @@
 }
 
 .spin a {
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 180px;
+  position: relative;
+  margin-right: 40px;
+  font-size: 1.4rem;
   text-decoration: none;
   z-index: 2;
 }
 
 .spin a:hover {
-  color: white;
+  color: orange;
+}
+
+.title--devweb h2 {
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 4rem;
+  color: lightgrey;
+  text-shadow: 7px 0px 1px grey;
+}
+
+.title--devweb h3 {
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 4rem;
+  color: lightgrey;
+  text-shadow: 7px 0px 1px grey;
 }
 
 .main--projecttitle {
@@ -121,6 +140,7 @@
 .cv--pdf {
   z-index: 7;
   color: #5cd6b0;
+  text-shadow: 1px 0px 0px blue;
 }
 
 .cv--pdf:hover {
@@ -165,8 +185,6 @@
 
 .art--aboutme h3 {
   margin: auto;
-  font-family: 'Consolas';
-  /*color: #ccd6f6;*/
   color: whitesmoke;
 }
 
@@ -188,15 +206,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: left;
 }
 
 .linus--richard {
   display: flex;
-}
-
-.gnu--linux {
-
+  margin: 2px 4px;
 }
 
 /*Photo right side*/
@@ -303,10 +318,15 @@
 
   border-radius: 12px;
   box-shadow: 0px 0px 18px grey;
-  color: whitesmoke;
   z-index: 12;
 }
 
+.div--content2 h3 {
+  font-size: 1.4rem;
+  color: dimgrey;
+}
+
 .div--criteria li {
-  margin: 5px 0px; 
+  margin: 5px 0px;
+  color: dodgerblue;
 }

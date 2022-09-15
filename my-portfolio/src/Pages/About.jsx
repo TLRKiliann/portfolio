@@ -1,8 +1,7 @@
 import photoLogo from '../assets/images/photo_logo.png';
 import linusImg from '../assets/images/great_linus_torvalds.jpg'; 
 import richardImg from '../assets/images/richard_stallman.jpg';
-
-import cvPdf from '../assets/files/cv_final.pdf';
+import cvPdf from '../assets/files/top_cv.pdf';
 import '../styles/about.scss';
 
 
@@ -32,6 +31,11 @@ export const About = () => {
         </div>
       </div>
 
+      <div className="title--devweb">
+        <h2>WEB DEVELOPMENT</h2>
+        <h3>Cédric Kuchen</h3>
+      </div>
+
       <div className="div--caption">
         <span className="title--caption">
           Wellcome !
@@ -47,7 +51,7 @@ export const About = () => {
               <h3>- About Me -</h3>
               <hr className="hr"/>
               <p>
-                My name is Cedric, and I'm looking for a job in web development.
+                My name is Cdréic, and I'm looking for a job as web developer.
                 I am very interested in web applications and how they work. I will
                 be happy to work in the front or backend or both.
               </p>
@@ -58,11 +62,24 @@ export const About = () => {
                 application, web, etc.
               </p>
               <div className="align--gnu">
-                Special Thanks to Linus Torvalds & Richard Stallman&nbsp;<a href={linusImg} 
-                className="linus--richard" target="_blank" rel="noreferrer">
+                <span style={{color: '#5cd6b0'}}>I am infinitely grateful to 
+                  &nbsp;<mark>Linus Torvalds</mark>&nbsp;& 
+                  &nbsp;<mark>Richard Stallman</mark>&nbsp;
+                </span>
+                <a 
+                  href={linusImg} 
+                  className="linus--richard"
+                  title="open Linus T. img"
+                  target="_blank"
+                  rel="noreferrer">
                 <img src={linusImg} style={opts} alt="no Linus img" /></a>
             
-                <a href={richardImg} className="linus--richard" target="_blank" rel="noreferrer">
+                <a
+                  href={richardImg}
+                  className="linus--richard" 
+                  title="open Richard S. img"
+                  target="_blank"
+                  rel="noreferrer">
                 <img src={richardImg} style={opts} alt="no Richard img"/></a>
 
               </div>
@@ -76,8 +93,8 @@ export const About = () => {
                 With python3, I realized web application without framework. In my opinion,
                 it's was more interesting to build application with tkinter to interact with
                 a server in LAN (Linux, raspberry, SSH, SCP, MySQL).<br/>
-                After that, I wannted know how web application works with framework, and how 
-                can I build web API using Node & React.
+                After that, I wannted to know how web application works with framework,
+                and how to build web API using Node & React.
               </p>
             </article>
           </div>
@@ -99,11 +116,12 @@ export const About = () => {
             <article className="art--second">
               <h3>- Linux -</h3>
               <hr className="hr"/>
-              <p>My goal was to understand how a computer works,
-                so I begun to install Linux, because there are many
-                accessing configuration. Linux realy help me how work 
-                an application with memory (RAM), process (PID), processor,
-                IO, internet & security (Hyper-virtualisation, kalilinux).
+              <p>My goal was to understand how a computer works, so I 
+                started to install Linux, because we have easier access 
+                to configurations than other platforms. Linux really 
+                helped me to understand how an application works with 
+                memory (RAM), processes (PID), processor, I/O, internet 
+                and security (Hyper-virtualization, kalilinux).
               </p>
             </article>
 
@@ -140,9 +158,8 @@ export const About = () => {
                 It was so interesting to make an application that 
                 interacts with a mysql server on raspberry pi 3.
                 After that, I varied my skills with PHP/MySQL to build
-                a server site with apache2.<br/>
-                I can interact with MySQL & Mongoose with React (CRUD,
-                login, sign-up, API, local db (js or json)).
+                a server site on apache2 (raspberry pi).<br/>
+                Now, I can build MERN stack e-commerce with React & TypeScript.
               </p>
             </article>
 
@@ -152,11 +169,11 @@ export const About = () => {
               </h3>
               <div className="div--criteria">
                 <ul>
-                  <li>PHP - MySQL</li>
+                  <li>PHP</li>
                   <li>Apache2</li>
-                  <li>MySQL</li>
-                  <li>Mongoose</li>
-                  <li>JSON(with local db)</li>
+                  <li>Python3-MySQL</li>
+                  <li>React-MySQL</li>
+                  <li>React-Mongoose</li>
                   <li>API REST & RESTfull</li>
                 </ul>
               </div>
