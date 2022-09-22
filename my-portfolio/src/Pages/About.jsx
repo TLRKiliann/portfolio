@@ -51,7 +51,7 @@ export const About = () => {
               <h3>- About Me -</h3>
               <hr className="hr"/>
               <p>
-                My name is Cdréic, and I'm looking for a job as web developer.
+                My name is Cédric, and I'm looking for a job as web developer.
                 I am very interested in web applications and how they work. I will
                 be happy to work in the front or backend or both.
               </p>
