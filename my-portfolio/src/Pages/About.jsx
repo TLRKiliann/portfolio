@@ -136,8 +136,7 @@ export const About = () => {
                   <li>Debian</li>
                   <li>Xubuntu Voyager XFCE4</li>
                   <li>Kalilinux</li>
-                  <li>Raspberry pi 3b</li>
-                  <li>Raspberry pi 4</li>
+                  <li>Raspberry pi</li>
                 </ul>
               </div>
             </div>
@@ -169,12 +168,12 @@ export const About = () => {
               </h3>
               <div className="div--criteria">
                 <ul>
-                  <li>PHP</li>
+                  <li>PHP-MySQL</li>
                   <li>Apache2</li>
                   <li>Python3-MySQL</li>
                   <li>React-MySQL</li>
                   <li>React-Mongoose</li>
-                  <li>API REST & RESTfull</li>
+                  <li>API REST & RESTful</li>
                 </ul>
               </div>
             </div>
